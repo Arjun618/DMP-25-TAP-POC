@@ -1,0 +1,151 @@
+teacher_id,name,subject,date_joined,last_feedback_date,students_assigned,feedback_submitted,status,location
+T0001,Joshua Pennington,English,2022-02-27,2025-04-12,35,No,Resigned,Hyderabad
+T0002,William Lynch,Coding,2021-04-24,2025-03-27,15,No,Resigned,Pune
+T0003,Adam Russell,Coding,2021-04-02,2025-03-25,36,Yes,On Leave,Hyderabad
+T0004,Bruce Collier,English,2022-06-01,2025-04-03,12,Yes,On Leave,Mumbai
+T0005,Denise Davenport,Science,2022-04-21,2025-03-31,12,Yes,Resigned,Bengaluru
+T0006,Charles Lee,English,2022-11-05,2025-04-13,29,No,Resigned,Hyderabad
+T0007,Breanna Jones,Coding,2023-08-01,2025-04-09,40,Yes,Resigned,Bengaluru
+T0008,Richard Adams,English,2020-04-21,2025-04-02,10,Yes,Resigned,Hyderabad
+T0009,Sara Carpenter,Science,2023-02-07,2025-04-12,16,Yes,Resigned,Hyderabad
+T0010,Jill Washington,Math,2021-09-16,2025-04-15,29,Yes,Resigned,Pune
+T0011,Jamie Cantu,Science,2023-12-29,2025-03-29,17,Yes,Active,Pune
+T0012,Mrs. Janet Chase,Science,2022-01-16,2025-03-22,34,No,On Leave,Bengaluru
+T0013,John Mcintyre,English,2021-12-01,2025-04-07,28,Yes,Resigned,Pune
+T0014,Rebecca Pearson MD,Coding,2020-06-14,2025-03-26,39,Yes,Resigned,Delhi
+T0015,Leslie Kane,Science,2024-01-06,2025-04-10,21,No,Active,Hyderabad
+T0016,Thomas Smith,Math,2020-11-27,2025-04-08,24,No,Resigned,Pune
+T0017,Tracy Jones,Science,2023-08-15,2025-04-01,15,No,Resigned,Pune
+T0018,Michael Santos,Coding,2023-12-02,2025-04-04,26,No,On Leave,Pune
+T0019,Shannon James,Science,2021-08-22,2025-04-12,38,No,Resigned,Bengaluru
+T0020,Amanda Jones,English,2022-12-24,2025-04-02,28,No,Active,Delhi
+T0021,Nicole Hamilton MD,English,2022-12-28,2025-03-24,31,No,Resigned,Pune
+T0022,Michael Berger,English,2020-06-28,2025-04-04,13,No,Active,Bengaluru
+T0023,Elaine Brooks,Math,2020-11-30,2025-03-31,31,Yes,On Leave,Bengaluru
+T0024,Kylie Sparks,Science,2021-01-07,2025-03-28,26,Yes,Resigned,Delhi
+T0025,Seth Harvey,Math,2021-04-27,2025-04-13,19,Yes,On Leave,Delhi
+T0026,Briana Murray,Coding,2021-05-17,2025-04-11,27,Yes,On Leave,Delhi
+T0027,Adam Ballard,Science,2024-02-16,2025-04-02,16,No,Active,Mumbai
+T0028,Brooke Alexander,English,2021-10-06,2025-04-17,33,Yes,Active,Mumbai
+T0029,Victor Vaughn,Science,2022-03-28,2025-04-03,16,Yes,Active,Mumbai
+T0030,James Webb,Science,2021-04-21,2025-04-07,14,Yes,Active,Pune
+T0031,Laura Haney,English,2021-07-20,2025-03-21,29,Yes,Resigned,Pune
+T0032,Mary Hill,English,2022-09-14,2025-03-22,21,No,On Leave,Hyderabad
+T0033,Natasha Wall,Science,2024-02-19,2025-04-02,25,Yes,Resigned,Delhi
+T0034,Crystal Pham,English,2021-03-24,2025-03-29,17,Yes,Active,Hyderabad
+T0035,Megan Le,English,2023-02-06,2025-03-26,25,Yes,Resigned,Delhi
+T0036,Stephanie Lucas,English,2021-08-10,2025-04-10,37,Yes,On Leave,Pune
+T0037,Jacob Anderson,English,2024-03-01,2025-04-03,20,Yes,Active,Mumbai
+T0038,Jason Gonzalez,English,2023-08-22,2025-04-15,28,Yes,On Leave,Delhi
+T0039,Holly Shaw,Science,2021-06-15,2025-03-27,15,No,Active,Delhi
+T0040,Roger Olson,English,2023-09-22,2025-04-03,40,No,On Leave,Mumbai
+T0041,Gina Wilson,English,2020-08-12,2025-03-26,23,Yes,On Leave,Delhi
+T0042,Courtney Rhodes,Science,2023-03-01,2025-04-08,37,No,On Leave,Bengaluru
+T0043,Regina Diaz,Math,2023-08-29,2025-04-08,28,Yes,Resigned,Mumbai
+T0044,Joshua Gibson,Coding,2023-02-27,2025-04-01,33,No,Active,Hyderabad
+T0045,Samantha Bentley,English,2020-10-03,2025-03-31,37,No,Active,Mumbai
+T0046,Manuel Hahn,Math,2021-09-09,2025-04-18,25,Yes,Active,Bengaluru
+T0047,Arthur Colon,English,2024-02-29,2025-04-03,14,No,On Leave,Delhi
+T0048,Audrey Williams,Science,2020-06-14,2025-04-03,27,Yes,On Leave,Pune
+T0049,Audrey Young DDS,Math,2021-12-12,2025-04-11,11,Yes,On Leave,Bengaluru
+T0050,Travis Horton,Coding,2022-08-05,2025-04-09,24,No,On Leave,Delhi
+T0051,Molly Mcclure,Science,2023-01-30,2025-03-24,27,No,On Leave,Pune
+T0052,Lisa Crosby,English,2021-06-26,2025-03-21,13,No,Resigned,Hyderabad
+T0053,Claudia Wallace,Math,2021-04-19,2025-04-06,28,Yes,On Leave,Delhi
+T0054,Michael Stephens,Science,2023-01-14,2025-04-06,31,No,Resigned,Bengaluru
+T0055,Donald Donaldson,Coding,2023-11-26,2025-04-11,22,No,On Leave,Mumbai
+T0056,Daniel Fowler,Math,2020-05-21,2025-03-22,30,No,On Leave,Hyderabad
+T0057,Dana Martinez,English,2022-09-12,2025-03-29,37,Yes,Active,Mumbai
+T0058,Phillip Clark,Science,2021-03-19,2025-03-31,17,No,On Leave,Delhi
+T0059,Charles Lester,Science,2020-04-22,2025-04-02,29,No,On Leave,Bengaluru
+T0060,Brianna Anderson,Science,2021-05-12,2025-03-28,33,No,On Leave,Mumbai
+T0061,Sean Anderson,Math,2021-10-26,2025-03-31,37,Yes,Active,Mumbai
+T0062,Alexis Baker,Science,2020-10-31,2025-04-09,40,Yes,Active,Mumbai
+T0063,Nichole Alvarez,English,2023-08-09,2025-04-06,13,Yes,Active,Bengaluru
+T0064,Ashley Gordon,Coding,2022-11-29,2025-03-22,10,No,Resigned,Pune
+T0065,Susan Hopkins,Coding,2021-07-30,2025-04-11,18,Yes,Active,Bengaluru
+T0066,Amanda Lutz,Science,2023-11-25,2025-04-08,17,Yes,Resigned,Delhi
+T0067,Brian Joseph,English,2022-03-08,2025-03-23,30,Yes,Active,Hyderabad
+T0068,Erica Hernandez,Math,2020-10-31,2025-04-02,10,Yes,Resigned,Delhi
+T0069,Lauren Joseph,Science,2021-11-30,2025-04-18,37,No,On Leave,Hyderabad
+T0070,Jody Jacobs,Science,2020-09-19,2025-03-25,27,No,Active,Hyderabad
+T0071,Marilyn Mack,Math,2023-05-12,2025-03-30,28,No,Resigned,Hyderabad
+T0072,Stephen Gutierrez,English,2023-10-25,2025-04-11,26,No,On Leave,Bengaluru
+T0073,Nicholas Edwards,Math,2021-08-16,2025-04-01,35,Yes,On Leave,Delhi
+T0074,Christian Leblanc,Science,2020-07-31,2025-03-24,23,No,Active,Delhi
+T0075,Anna Davis,Coding,2023-06-09,2025-04-07,10,Yes,On Leave,Delhi
+T0076,Kristie Willis,English,2022-09-07,2025-04-16,27,Yes,Resigned,Bengaluru
+T0077,Bryan Gomez,English,2023-02-15,2025-04-09,19,Yes,On Leave,Delhi
+T0078,Michelle Schmitt,Math,2022-11-06,2025-04-04,35,Yes,Resigned,Delhi
+T0079,Kenneth Lewis,Math,2023-02-02,2025-04-12,23,No,On Leave,Mumbai
+T0080,Brian Bruce,Math,2021-11-09,2025-03-25,32,No,On Leave,Mumbai
+T0081,Laura Aguirre,Science,2023-11-21,2025-04-16,12,No,Resigned,Mumbai
+T0082,Sabrina Austin,Science,2023-01-11,2025-04-16,19,No,On Leave,Mumbai
+T0083,Timothy Gallegos,Coding,2021-06-07,2025-03-21,15,Yes,On Leave,Pune
+T0084,Michael Parker,English,2021-09-27,2025-04-06,29,No,On Leave,Hyderabad
+T0085,Sergio Knight,English,2021-12-31,2025-03-23,16,No,Active,Mumbai
+T0086,Mark Johnson,Coding,2023-06-21,2025-04-14,27,Yes,Active,Pune
+T0087,Jason Peterson,Science,2021-11-13,2025-04-04,18,Yes,Resigned,Bengaluru
+T0088,Paula Bradley,Coding,2020-08-27,2025-03-22,17,Yes,Active,Pune
+T0089,Paul Williams,English,2020-08-22,2025-04-02,16,No,On Leave,Delhi
+T0090,Jeff Lawson,English,2022-01-21,2025-04-02,21,No,Resigned,Pune
+T0091,Jose Reed,Science,2020-10-07,2025-04-02,12,Yes,Active,Delhi
+T0092,Leslie Rose,English,2021-08-10,2025-03-22,12,No,Active,Mumbai
+T0093,William Brown,Science,2021-03-01,2025-04-03,36,No,Active,Pune
+T0094,Pamela Duran,Math,2021-07-11,2025-04-04,22,No,Active,Pune
+T0095,Jonathan Jordan,Math,2020-11-04,2025-04-07,24,Yes,Resigned,Mumbai
+T0096,Crystal Hansen,English,2023-02-19,2025-04-06,22,No,On Leave,Mumbai
+T0097,Scott Williams,Coding,2020-05-17,2025-04-11,33,Yes,On Leave,Bengaluru
+T0098,Shannon Johnston,Science,2022-09-25,2025-04-08,16,No,Active,Mumbai
+T0099,Jennifer Wilson,Coding,2020-05-20,2025-04-04,17,No,On Leave,Pune
+T0100,Travis Stevens,Math,2023-03-25,2025-04-06,35,No,Resigned,Pune
+T0101,Ryan Sanchez,English,2022-10-19,2025-04-08,35,Yes,Active,Pune
+T0102,Jennifer Collins,English,2021-09-27,2025-03-30,32,Yes,On Leave,Pune
+T0103,Christopher Dixon,Math,2020-10-12,2025-04-14,15,No,Active,Hyderabad
+T0104,Susan Bailey,Science,2023-05-22,2025-03-27,39,Yes,Active,Delhi
+T0105,Charles Gonzalez,Math,2022-11-09,2025-03-27,32,Yes,Active,Bengaluru
+T0106,Mary Thompson,Math,2023-08-01,2025-04-12,20,No,On Leave,Mumbai
+T0107,Justin Riley,Coding,2023-03-12,2025-04-16,32,No,On Leave,Mumbai
+T0108,Victoria Morris,Science,2022-12-18,2025-04-04,38,Yes,On Leave,Bengaluru
+T0109,Barry Ramos,Science,2021-08-01,2025-04-02,27,No,Active,Hyderabad
+T0110,Heather Jones,Math,2022-04-05,2025-04-10,27,No,On Leave,Bengaluru
+T0111,Jacob Mitchell,Science,2023-01-14,2025-03-24,37,Yes,Active,Hyderabad
+T0112,Katie Ford,Math,2022-08-27,2025-03-21,24,No,On Leave,Hyderabad
+T0113,Robert Pearson,Science,2021-08-30,2025-04-18,24,Yes,Resigned,Hyderabad
+T0114,Chris Brown,English,2020-09-25,2025-04-05,33,Yes,Active,Hyderabad
+T0115,Mrs. Maria Williams,Science,2023-04-22,2025-04-10,34,Yes,On Leave,Pune
+T0116,Kelly Bishop MD,English,2024-03-13,2025-04-02,16,No,Resigned,Mumbai
+T0117,Raymond Shelton,Science,2020-07-08,2025-04-05,20,No,Resigned,Delhi
+T0118,Brandon Gregory,Coding,2021-07-03,2025-04-01,13,Yes,Active,Mumbai
+T0119,Mary Escobar,Math,2024-01-04,2025-03-27,37,Yes,Active,Pune
+T0120,Kevin Thomas,English,2021-10-13,2025-04-04,16,Yes,Active,Hyderabad
+T0121,Melissa Myers,English,2022-10-29,2025-03-24,31,No,Resigned,Hyderabad
+T0122,James Conner,Science,2023-10-03,2025-03-26,11,No,Active,Hyderabad
+T0123,Sandra Rodgers,Coding,2023-03-18,2025-04-14,10,Yes,Resigned,Bengaluru
+T0124,Michael Romero,Coding,2020-05-16,2025-04-06,24,Yes,On Leave,Hyderabad
+T0125,Trevor Peterson,English,2023-07-22,2025-04-12,36,No,Resigned,Pune
+T0126,Zachary Moore,Science,2021-07-21,2025-03-24,26,Yes,Resigned,Pune
+T0127,Kimberly Rodgers,Science,2022-07-14,2025-03-21,12,Yes,Resigned,Pune
+T0128,Sherri Williamson,Coding,2022-11-01,2025-04-07,33,Yes,Resigned,Bengaluru
+T0129,Christopher Schwartz,Math,2022-12-14,2025-03-28,16,Yes,Resigned,Mumbai
+T0130,Amanda Diaz,English,2023-05-10,2025-03-31,33,Yes,Resigned,Hyderabad
+T0131,Lisa Goodwin,Science,2023-08-18,2025-04-10,31,No,Resigned,Bengaluru
+T0132,David Sheppard,Coding,2023-08-19,2025-04-11,15,Yes,Resigned,Bengaluru
+T0133,Cheyenne Gregory,Science,2022-09-21,2025-04-10,31,Yes,Resigned,Hyderabad
+T0134,Douglas Reyes,English,2022-07-16,2025-04-09,39,No,On Leave,Hyderabad
+T0135,Ruth Solis,Science,2020-11-18,2025-04-01,37,No,On Leave,Bengaluru
+T0136,John Watson,Science,2024-04-08,2025-03-24,29,Yes,Resigned,Hyderabad
+T0137,Kelli Martinez,Math,2020-08-26,2025-03-27,22,No,On Leave,Bengaluru
+T0138,Taylor Hernandez,English,2022-02-26,2025-03-24,40,No,Active,Pune
+T0139,Courtney Hayes,Science,2021-10-13,2025-03-21,29,Yes,Resigned,Mumbai
+T0140,James Brooks,Science,2021-12-08,2025-03-23,10,No,Active,Mumbai
+T0141,Alfred Galvan,Science,2023-11-12,2025-04-05,10,No,Resigned,Hyderabad
+T0142,Brenda Mitchell,Math,2023-10-28,2025-04-11,13,Yes,On Leave,Delhi
+T0143,Brenda Thornton,Math,2022-03-15,2025-04-18,14,No,On Leave,Hyderabad
+T0144,Bobby Scott,Math,2023-11-06,2025-03-27,17,No,On Leave,Pune
+T0145,Monica Rose,English,2020-10-07,2025-04-02,28,Yes,Resigned,Pune
+T0146,Bryan Allen,Science,2023-01-05,2025-04-11,35,No,Active,Bengaluru
+T0147,Russell Porter,Coding,2022-07-29,2025-03-20,29,No,Active,Hyderabad
+T0148,Laura Higgins,English,2021-07-14,2025-04-09,12,Yes,On Leave,Delhi
+T0149,Harry Duncan,English,2021-02-02,2025-03-24,23,Yes,Active,Hyderabad
+T0150,Heather Ashley,Coding,2022-08-11,2025-04-13,30,No,Active,Delhi
