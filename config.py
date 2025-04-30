@@ -32,7 +32,7 @@ EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
 # LLM Configuration
 USE_LOCAL_MODEL = False  # Set to False to use Hugging Face API
-LLM_MODEL = "google/flan-t5-small"  # Use Flan-T5-Small via Hugging Face (public, supported model)
+LLM_MODEL = "google/flan-t5-base"  # Use Flan-T5-Small via Hugging Face (public, supported model)
 LOCAL_MODEL_PATH = os.path.join("models", "llama-2-7b-chat.Q4_0.gguf")  # Path to local model file
 LOCAL_MODEL_TYPE = "llama"  # Model type for CTransformers: llama, gpt2, gpt_neox, etc.
 MODEL_MAX_TOKENS = 512  # Maximum tokens for LLM response

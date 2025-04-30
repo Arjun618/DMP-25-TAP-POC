@@ -68,8 +68,41 @@ def create_query_interface(retriever, llm):
     """
     # Display dataset summary at the top
     dataset_summary = analyze_dataset("")
-    with st.expander("📊 Dataset Summary & Details", expanded=True):
-        st.markdown(dataset_summary)
+
+    # --- New: Add summary buttons and modal/expander popups ---
+    import re
+    student_section = ""
+    teacher_section = ""
+    # Extract only the relevant sections using regex
+    student_match = re.search(r"## Student Dataset(.+?)(## Teacher Dataset|$)", dataset_summary, re.DOTALL)
+    if student_match:
+        student_section = student_match.group(0).strip()
+    teacher_match = re.search(r"## Teacher Dataset(.+?)(##|$)", dataset_summary, re.DOTALL)
+    if teacher_match:
+        teacher_section = teacher_match.group(0).strip()
+
+    st.markdown("### 📊 Dataset Summaries")
+    col_summary1, col_summary2 = st.columns(2)
+    show_student = col_summary1.button("Student dataset summary")
+    show_teacher = col_summary2.button("Teacher dataset summary")
+
+    # Use modal if available (Streamlit >=1.32), else fallback to expander
+    if show_student:
+        if hasattr(st, "modal"):
+            with st.modal("Student Dataset Summary"):
+                st.markdown(student_section)
+        else:
+            with st.expander("Student Dataset Summary", expanded=True):
+                st.markdown(student_section)
+    if show_teacher:
+        if hasattr(st, "modal"):
+            with st.modal("Teacher Dataset Summary"):
+                st.markdown(teacher_section)
+        else:
+            with st.expander("Teacher Dataset Summary", expanded=True):
+                st.markdown(teacher_section)
+
+    # --- End new summary popup section ---
 
     # Create a response container early to handle any errors
     response_container = st.container()

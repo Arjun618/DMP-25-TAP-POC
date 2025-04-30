@@ -20,18 +20,17 @@ from config import (
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
 def create_remote_llm_with_retry():
     """Create LLM with retry logic for handling connection issues"""
+    # Use 'max_new_tokens' instead of 'max_length' for better compatibility
     return HuggingFaceHub(
         repo_id=LLM_MODEL,
         huggingfacehub_api_token=HUGGINGFACE_API_TOKEN,
         model_kwargs={
             "temperature": 0.6,
-            "max_length": MODEL_MAX_TOKENS
+            "max_new_tokens": MODEL_MAX_TOKENS
         },
-        # Add callback manager for better output handling
-        callback_manager=CallbackManager([StreamingStdOutCallbackHandler()]),
-        # Add request timeout parameters
-        huggingfacehub_api_timeout=120  # Increase timeout to 120 seconds
+        callback_manager=CallbackManager([StreamingStdOutCallbackHandler()])
     )
+
 
 def create_local_llm():
     """Create a local LLM using CTransformers backend"""
